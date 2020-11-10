@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "target": "es5",
+    "lib": ["es6"],
+    "allowJs": true,
+    "sourceMap": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "importHelpers": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "build", "scripts"],
+  "include": ["src", "packages/dbeep-mongo/Dastabase.ts"]
+}

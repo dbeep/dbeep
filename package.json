@@ -1,0 +1,39 @@
+{
+  "name": "dbeep",
+  "version": "0.0.1",
+  "description": "A highly opinionated framework",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dbeep/dbeep.git"
+  },
+  "keywords": [
+    "typescript",
+    "Node.js",
+    "scaffolding",
+    "framework"
+  ],
+  "author": "akterstack@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbeep/dbeep/issues"
+  },
+  "homepage": "https://github.com/dbeep/dbeep#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.14.0",
+    "mongodb": "^3.6.2",
+    "prettier": "^2.1.2",
+    "ts-node": "^9.0.0",
+    "tslib": "^2.0.3",
+    "typescript": "^4.0.3"
+  },
+  "peerDependencies": {
+    "mongodb": "^3.6.2"
+  }
+}

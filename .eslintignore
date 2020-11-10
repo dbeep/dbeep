@@ -1,0 +1,5 @@
+.history/
+build/
+common/
+dist/
+node_modules/

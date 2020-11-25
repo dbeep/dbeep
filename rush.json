@@ -26,7 +26,7 @@
    * Specify one of: "pnpmVersion", "npmVersion", or "yarnVersion".  See the Rush documentation
    * for details about these alternatives.
    */
-  "pnpmVersion": "4.14.4",
+  "pnpmVersion": "5.13.4",
 
   // "npmVersion": "4.5.0",
   // "yarnVersion": "1.9.4",
@@ -121,7 +121,7 @@
    * Specify a SemVer range to ensure developers use a Node.js version that is appropriate
    * for your repo.
    */
-  "nodeSupportedVersionRange": ">=12.13.0 <13.0.0",
+  "nodeSupportedVersionRange": ">=14.9.0 <15.0.0",
 
   /**
    * Odd-numbered major versions of Node.js are experimental.  Even-numbered releases
@@ -173,7 +173,7 @@
    * and set projectFolderMaxDepth to a large number.
    */
   // "projectFolderMinDepth": 2,
-  // "projectFolderMaxDepth": 2,
+  "projectFolderMaxDepth": 3,
 
   /**
    * Today the npmjs.com registry enforces fairly strict naming rules for packages, but in the early
@@ -440,7 +440,27 @@
     {
       "packageName": "dbeep",
       "projectFolder": ".",
-      "reviewCategory": "tools"
+      "reviewCategory": "production"
+    },
+    {
+      "packageName": "@dbeep/core",
+      "projectFolder": "./packages/dbeep-core",
+      "reviewCategory": "production",
+    },
+    {
+      "packageName": "@dbeep/mongo",
+      "projectFolder": "./packages/dbeep-mongo",
+      "reviewCategory": "production"
+    },
+    {
+      "packageName": "@dbeep/web",
+      "projectFolder": "./packages/dbeep-web",
+      "reviewCategory": "production"
+    },
+    {
+      "packageName": "@dbeep/devkits",
+      "projectFolder": "./packages/dbeep-devkits",
+      "reviewCategory": "production"
     }
   ]
 }

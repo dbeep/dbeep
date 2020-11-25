@@ -1,0 +1,7 @@
+{
+  "name": "@dbeep/devkits",
+  "version": "1.0.0",
+  "scripts": {
+    "build:w": "exit 0"
+  }
+}
